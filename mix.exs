@@ -6,7 +6,7 @@ defmodule PROXY.Mixfile do
       app: :erl_proxy_example,
       version: "0.7.1",
       elixir: "~> 1.7",
-      description: "PLM Product Lifecycle Management",
+      description: "EPE",
       package: package(),
       deps: deps()
     ]
@@ -14,9 +14,9 @@ defmodule PROXY.Mixfile do
 
   def package do
     [
-      files: ~w(doc lib src mix.exs LICENSE),
+      files: ~w(README* src),
       licenses: ["ISC"],
-      maintainers: ["Eugene Bosiakov2"],
+      maintainers: ["Eugene Bosiakov"],
       name: :erl_proxy_example,
       links: %{"GitHub" => "https://github.com/bosiakov/erl_proxy_example"}
     ]

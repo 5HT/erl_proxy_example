@@ -39,6 +39,13 @@ $ mix release
 $ _build/default/rel/erl_proxy_example/bin/erl_proxy_example start_iex
 ```
 
+erlang.mk
+---------
+
+```
+$ make run
+```
+
 Then point your browser to http://localhost:8090
 
 ```
