@@ -1,0 +1,10 @@
+{application, erl_proxy_example,
+ [
+  {description, "erl_proxy_example"},
+  {vsn, "0.8.0"},
+  {registered, []},
+  {applications, [kernel,stdlib,ranch,cowboy,hackney,lager]},
+  {mod, { api_cowboy_app, []}},
+  {env, []}
+ ]}.
+
